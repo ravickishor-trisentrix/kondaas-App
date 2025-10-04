@@ -54,24 +54,26 @@ const styles = StyleSheet.create({
   },
 
   // Skip button
-  skipButton: {
-    position: "absolute",
-    top: 61,
-    right: 25,  // Changed from left: 324 to right: 25 for better positioning
-    backgroundColor: "#F00001",
-    paddingVertical: 6,
-    paddingHorizontal: 14,
-    borderRadius: 6,
-    zIndex: 10,  // Added to stay on top
-  },
-  skipText: {
-    fontFamily: "System",  // Changed from "Geist" to "System" (more compatible)
-    fontWeight: "400",
-    fontSize: 14,
-    lineHeight: 21,
-    letterSpacing: 0.5,
-    color: "#fff",
-  },
+skipButton: {
+  position: "absolute",
+  top: 61,
+  right: 25,
+  backgroundColor: "transparent",  // Changed to transparent
+  paddingVertical: 6,
+  paddingHorizontal: 14,
+  borderRadius: 20,  // Increased for more rounded pill shape
+  borderWidth: 2,  // Added border
+  borderColor: "#F00001",  // Red border
+  zIndex: 10,
+},
+skipText: {
+  fontFamily: "System",
+  fontWeight: "400",
+  fontSize: 14,
+  lineHeight: 21,
+  letterSpacing: 0.5,
+  color: "#F00001",  // Changed to red text
+},
 
   // Intro image - FIXED: Moved to center, made bigger
   image: {

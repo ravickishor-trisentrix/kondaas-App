@@ -22,10 +22,19 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.kondaasApp"
+      "package": "com.anonymous.kondaasApp",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "apiKey": "AIzaSyDQovhwcf4sd7qqZIgVApst2rTTeenRchs",
+      "authDomain": "kondaas-App.firebaseapp.com",
+      "projectId": "kondaas-app",
+      "storageBucket": "kondaas-app.appspot.com",
+      "messagingSenderId": "875669428163",
+      "appId": "1:875669428163:android:3fcaf5c37eb5d06cc70f76"
     }
   }
 }

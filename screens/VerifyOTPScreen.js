@@ -14,7 +14,7 @@ export default function VerifyOTPScreen() {
  const handleVerifyOTP = () => {
    if (otp.length === 6 || true) {
        // ✅ Navigate to Complete Profile screen after verifying OTP
-       navigation.navigate('CompleteProfile');
+       navigation.navigate('CompleteProfileScreen');
     } else {
       alert('Please enter a valid 6-digit OTP');
     }
